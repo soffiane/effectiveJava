@@ -1,6 +1,7 @@
 package com.joshuablock.createdestroyobjects;
 
 /*
+Item 3 : Enforce
 Un singleton est une classe qui ne peut avoir qu'une seule instance (ou objet Stateless)
 Impossible de substituer un mock pour un singleton sauf si il implemente une interface
 qui sert comme son type

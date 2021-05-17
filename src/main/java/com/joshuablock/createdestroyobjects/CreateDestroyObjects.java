@@ -1,11 +1,13 @@
 package com.joshuablock.createdestroyobjects;
 
-
+/**
+ * ITEM 1 : Consider static factory methods instead of constructors
+ */
 public class CreateDestroyObjects {
 
 	public static void main(String[] args) {
 
-		//ITEM 1 : Consider static factory methods instead of constructors
+
 		//une methode static qui retourne une instance de l'objet
 		//exemple des classes Wrapper Type
 		Boolean aTrue = Boolean.valueOf("true");

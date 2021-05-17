@@ -1,5 +1,8 @@
 package com.joshuablock.createdestroyobjects;
 
+/**
+ * Item 2 : Consider a builder when faced with many constructor parameters
+ */
 //pattern permettant de construire un objet qui a beaucoup d'attributs
 //evite l'antipattern "Telescoping constructor pattern"
 public class BuilderPattern {}
