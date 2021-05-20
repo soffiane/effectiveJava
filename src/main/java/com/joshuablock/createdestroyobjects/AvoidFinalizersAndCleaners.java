@@ -17,7 +17,7 @@ public class AvoidFinalizersAndCleaners {
 
 // An autocloseable class using a cleaner as a safety net
 //exemple java 9
-class Room implements AutoCloseable {
+/*class Room implements AutoCloseable {
     private static final Cleaner cleaner = Cleaner.create();
     // Resource that requires cleaning. Must not refer to Room!
     private static class State implements Runnable {
@@ -44,4 +44,4 @@ class Room implements AutoCloseable {
     public void close() {
         cleanable.clean();
     }
-}
+}*/
